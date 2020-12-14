@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>E Learning</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bigwrapper">
+        <div class="wrapper">
+            <h1>TEST </h1>
+            <section id="questiondiv">
+                <p class="counter"></p>
+                <p class="scores"></p>
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer1"></p>
+                    <section>
+                        <img src="img/tree1.png" alt="tree data structure">
+                        <p class="question">Which node is the root node ?</p>
+                    </section>
+
+                    <div class="answers" id="answer1">
+                        <input type="radio" value="false" name="answers1">
+                        <label for="option1">15xy</label>
+                        <input type="radio" value="false" name="answers1">
+                        <label for="option2">-25y</label>
+                        <input type="radio" value="false" name="answers1">
+                        <label for="option3">18</label>
+                        <input type="radio" value="false" name="answers1">
+                        <label for="option4">x</label>
+                        <input type="radio" value="true" name="answers1">
+                        <label for="option5">15xy - 25y + 18</label>
+                    </div>
+                    <button id="1" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer2"></p>
+                    <section>
+                        <img src="img/tree1.png" alt="tree data structure">
+                        <p class="question">Node 15xy is a sibling to ?</p>
+                    </section>
+                    <div class="answers" id="answer2">
+                        <input type="radio" value="true" name="answers2">
+                        <label for="option1">-25y</label>
+                        <input type="radio" value="false" name="answers2">
+                        <label for="option2">x</label>
+                        <input type="radio" value="false" name="answers2">
+                        <label for="option3">y</label>
+                        <input type="radio" value="false" name="answers2">
+                        <label for="option4">15xy - 25y + 18</label>
+                        <input type="radio" value="false" name="answers2">
+                        <label for="option5">18</label>
+                    </div>
+                    <button id="2" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer3"></p>
+                    <section>
+                        <img src="img/tree1.png" alt="tree data structure">
+                        <p class="question">Node 15 is a sibling to ?</p>
+                    </section>
+                    <div class="answers" id="answer3">
+                        <input type="radio" value="false" name="answers3">
+                        <label for="option1">-25y</label>
+                        <input type="radio" value="true" name="answers3">
+                        <label for="option2">x</label>
+                        <input type="radio" value="false" name="answers3">
+                        <label for="option3">15xy</label>
+                        <input type="radio" value="false" name="answers3">
+                        <label for="option4">15xy - 25y + 18</label>
+                        <input type="radio" value="false" name="answers3">
+                        <label for="option5">18</label>
+                    </div>
+                    <button id="3" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer4"></p>
+                    <section>
+                        <img src="img/tree1.png" alt="tree data structure">
+                        <p class="question">Node 15 is called ....?</p>
+                    </section>
+                    <div class="answers" id="answer4">
+                        <input type="radio" value="false" name="answers4">
+                        <label for="option1">Root node</label>
+                        <input type="radio" value="true" name="answers4">
+                        <label for="option2">Leaf node</label>
+                        <input type="radio" value="false" name="answers4">
+                        <label for="option3">Parent node</label>
+                        <input type="radio" value="false" name="answers4">
+                        <label for="option4">Internal node</label>
+                        <input type="radio" value="false" name="answers4">
+                        <label for="option5">Edge node</label>
+                    </div>
+                    <button id="4" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer5"></p>
+                    <section>
+                        <img src="img/tree1.png" alt="tree data structure">
+                        <p class="question">Node -25 and y are ?</p>
+                    </section>
+                    <div class="answers" id="answer5">
+                        <input type="radio" value="false" name="answers5">
+                        <label for="option1">Root nodes</label>
+                        <input type="radio" value="false" name="answers5">
+                        <label for="option2">Edge nodes</label>
+                        <input type="radio" value="false" name="answers5">
+                        <label for="option3">Parent nodes</label>
+                        <input type="radio" value="false" name="answers5">
+                        <label for="option4">Internal nodes</label>
+                        <input type="radio" value="true" name="answers5">
+                        <label for="option5">Sibling nodes</label>
+                    </div>
+                    <button id="5" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer6"></p>
+                    <section>
+                        <img src="img/tree1.png" alt="tree data structure">
+                        <p class="question">Node 18 is called ....?</p>
+                    </section>
+                    <div class="answers" id="answer6">
+                        <input type="radio" value="false" name="answers6">
+                        <label for="option1">Root node</label>
+                        <input type="radio" value="true" name="answers6">
+                        <label for="option2">Leaf node</label>
+                        <input type="radio" value="false" name="answers6">
+                        <label for="option3">Parent node</label>
+                        <input type="radio" value="false" name="answers6">
+                        <label for="option4">Internal node</label>
+                        <input type="radio" value="false" name="answers6">
+                        <label for="option5">Edge node</label>
+                    </div>
+                    <button id="6" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer7"></p>
+                    <section>
+                        <img src="img/tree4.png" alt="tree data structure">
+                        <p class="question">Node 72 is called ....?</p>
+                    </section>
+                    <div class="answers" id="answer7">
+                        <input type="radio" value="true" name="answers7">
+                        <label for="option1">Root node</label>
+                        <input type="radio" value="false" name="answers7">
+                        <label for="option2">Leaf node</label>
+                        <input type="radio" value="false" name="answers7">
+                        <label for="option3">Parent node</label>
+                        <input type="radio" value="false" name="answers7">
+                        <label for="option4">Internal node</label>
+                        <input type="radio" value="false" name="answers7">
+                        <label for="option5">Edge node</label>
+                    </div>
+                    <button id="7" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer8"></p>
+                    <section>
+                        <img src="img/tree4.png" alt="tree data structure">
+                        <p class="question">Node 12 is called ....?</p>
+                    </section>
+                    <div class="answers" id="answer8">
+                        <input type="radio" value="false" name="answers8">
+                        <label for="option1">Root node</label>
+                        <input type="radio" value="false" name="answers8">
+                        <label for="option2">Leaf node</label>
+                        <input type="radio" value="true" name="answers8">
+                        <label for="option3">Parent node</label>
+                        <input type="radio" value="false" name="answers8">
+                        <label for="option5">Edge node</label>
+                    </div>
+                    <button id="8" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer9"></p>
+                    <section>
+                        <img src="img/tree4.png" alt="tree data structure">
+                        <p class="question">Node 6 and 12 are called ....?</p>
+                    </section>
+                    <div class="answers" id="answer9">
+                        <input type="radio" value="false" name="answers9">
+                        <label for="option1">Root nodes</label>
+                        <input type="radio" value="false" name="answers9">
+                        <label for="option2">Leaf nodes</label>
+                        <input type="radio" value="true" name="answers9">
+                        <label for="option4">sibling nodes</label>
+                        <input type="radio" value="false" name="answers9">
+                        <label for="option5">Edge nodes</label>
+                    </div>
+                    <button id="9" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer10"></p>
+                    <section>
+                        <img src="img/tree4.png" alt="tree data structure">
+                        <p class="question">Node 72 can also be called ....?</p>
+                    </section>
+                    <div class="answers" id="answer10">
+                        <input type="radio" value="false" name="answers10">
+                        <label for="option1">Child node</label>
+                        <input type="radio" value="false" name="answers10">
+                        <label for="option2">Leaf node</label>
+                        <input type="radio" value="true" name="answers10">
+                        <label for="option3">Parent node</label>
+                        <input type="radio" value="false" name="answers10">
+                        <label for="option4">sibling node</label>
+                        <input type="radio" value="false" name="answers10">
+                        <label for="option5">Edge node</label>
+                    </div>
+                    <button id="10" onclick="checkAnswer(this.id)">Check Answer</button>
+                </div>
+
+
+                <div class="questions">
+                    <p class="displayanswer" id="displayanswer11"></p>
+                    <section>
+                        <h3>The End</h3>
+                    </section>
+                    <div class="answers" id="answer10">
+                        <p class="result"></p>
+                    </div>
+                    <a class="enterclass" href="./index.html"> <button class="enterclassButton">HOME</button></a>
+                </div>
+
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+
+        </div>
+    </div>
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
